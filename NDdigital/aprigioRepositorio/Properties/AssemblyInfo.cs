@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Unidade2")]
+[assembly: AssemblyTitle("aprigioRepositorio")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Unidade2")]
+[assembly: AssemblyProduct("aprigioRepositorio")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("327c5785-22c8-4a68-aaa0-e9910f927c0b")]
+[assembly: Guid("2adc24a6-bb6c-483e-ad4f-7a8ae47cc8c4")]
 
 // Version information for an assembly consists of the following four values:
 //

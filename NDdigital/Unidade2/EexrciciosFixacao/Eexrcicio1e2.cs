@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace Unidade2.EexrciciosFixacao
 {
-    class Eexrcicio1
+    /* Exercicios Fixação
+       1)	Faça um algoritmo que receba dois números e exiba o resultado da sua soma.
+       2)	Faça um algoritmo que receba dois números e ao final mostre a soma, subtração, multiplicação e a divisão dos números lidos.*/
+    class Eexrcicio1e2
     {
         static int n1;
         static int n2;
         static double result;
         static string opcao;
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.WriteLine("Digite o Primeiro Número: ");
             n1 = int.Parse(Console.ReadLine());
@@ -46,14 +49,9 @@ namespace Unidade2.EexrciciosFixacao
             Console.ReadKey();
         }
 
-        // Exercicios Fixação
-        // 1)	Faça um algoritmo que receba dois números e exiba o resultado da sua soma.
-        // 2)	Faça um algoritmo que receba dois números e ao final mostre a soma, subtração, multiplicação e a divisão dos números lidos. 
-
         static void soma(int n1, int n2)
         {
             Console.WriteLine("Soma {0}", result = n1 + n2);
-            Console.ReadKey();
         }
 
         static void subtracao(int n1, int n2)
@@ -61,26 +59,29 @@ namespace Unidade2.EexrciciosFixacao
             if (n1 > n2)
             {
                 Console.WriteLine("Subtração {0} ", result = n1 - n2);
-                Console.ReadKey();
             }
             else
             {
                 Console.WriteLine("Subtração {0} ", result = n2 - n1);
-                Console.ReadKey();
             }
         }
 
         static void Multiplicacao(int n1, int n2)
         {
             Console.WriteLine("Multiplicação {0} ", result = n1 * n2);
-            Console.ReadKey();
         }
          
         static void Divisao(int n1, int n2)
         {
-            Console.WriteLine("Divisão {0} ", result = n1 / n2);
-            Console.ReadKey();
+            if (n1 > n2)
+            {
+                Console.WriteLine("Divisão {0} ", result = n1 / n2); 
+            }
+            else
+            {
+                Console.WriteLine("Divisão {0} ", result = n2 / n1); 
+            }
         }
-         
+        
     }
 }

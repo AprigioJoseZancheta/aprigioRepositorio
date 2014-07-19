@@ -41,7 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EexrciciosFixacao\Eexrcicio1.cs" />
+    <Compile Include="EexrciciosFixacao\Eexrcicio1e2.cs" />
+    <Compile Include="EexrciciosFixacao\Exercicio10.cs" />
+    <Compile Include="EexrciciosFixacao\Exercicio3.cs" />
+    <Compile Include="EexrciciosFixacao\Exercicio4.cs" />
+    <Compile Include="EexrciciosFixacao\Exercicio5.cs" />
+    <Compile Include="EexrciciosFixacao\Exercicio6.cs" />
+    <Compile Include="EexrciciosFixacao\Exercicio7.cs" />
+    <Compile Include="EexrciciosFixacao\Exercicio8.cs" />
+    <Compile Include="EexrciciosFixacao\Exercicio9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

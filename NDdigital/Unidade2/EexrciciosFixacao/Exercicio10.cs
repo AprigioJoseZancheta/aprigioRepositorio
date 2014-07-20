@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 namespace Unidade2.EexrciciosFixacao
 {
     /*10)	A Loja Mamão com Açúcar está vendendo seus produtos em 5 (cinco) prestações sem juros. 
-     * Faça um algoritmo que receba um valor de uma compra e mostre o valor das prestações.*/ 
+     * Faça um algoritmo que receba um valor de uma compra e mostre o valor das prestações.*/
     class Exercicio10
     {
-        static void Main()
+        static void Main9()
         {
             double valorPrestacao;
             try

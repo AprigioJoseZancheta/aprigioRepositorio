@@ -10,7 +10,7 @@ namespace Unidade2.ExerciciosComplementares
      * Calcule e escreva a soma das idades do homem mais velho com a mulher mais nova, e o produto das idades do homem mais novo com a mulher mais velha. */
     class Exercicio10
     {
-        static void Main()
+        static void Main10()
         {
             int idadeHomem1 = 0;
             int idadeHomem2 = 0;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Unidade2.ExerciciosComplementares
 {
-    /*9)	Um posto está vendendo combustíveis com a seguinte tabela de descontos:  
+    /*9)   Um posto está vendendo combustíveis com a seguinte tabela de descontos:  
            Álcool  até 20 litros, desconto de 3% por litro: 
  	 	   Acima de 20 litros, desconto de 5% por litro.  
  
@@ -16,9 +16,52 @@ namespace Unidade2.ExerciciosComplementares
      *   calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 3,30 e o preço do litro do álcool é R$ 2,90.*/
     class Rxercicio9
     {
-        static void Main()
+        static void Main9()
         {
-            
+            string opcao = "";
+            double quantidadeLitros = 0;
+            double alcoolAteVinte = 0;
+            double alcoolMaisVinte = 0;
+            double gasolinaAteVinte = 0;
+            double gasolinaMaisVinte = 0;
+            double precoAlcool = 2.90;
+            double precoGasolina = 3.30;
+
+            Console.WriteLine("Digite (a) Alcool ou (g) Gasolina");
+            opcao = Console.ReadLine();
+
+            switch (opcao)
+            {
+                case "a": Console.WriteLine("Informe a quantidade de litros: ");
+                    quantidadeLitros = double.Parse(Console.ReadLine());
+                    if (quantidadeLitros <= 20)
+                    {
+                        alcoolAteVinte = ((precoAlcool * 0.03) + precoAlcool * quantidadeLitros);
+                        Console.WriteLine("Preço {0} ", alcoolAteVinte);
+                    }
+                    else
+                    {
+                        alcoolMaisVinte = ((precoAlcool * 0.05) + precoAlcool * quantidadeLitros);
+                        Console.WriteLine("Preço {0} ", alcoolMaisVinte);
+                    }
+                    break;
+                case "g": Console.WriteLine("Informe a quantidade de litros: ");
+                    quantidadeLitros = double.Parse(Console.ReadLine());
+                    if (quantidadeLitros <= 20)
+                    {
+                        gasolinaAteVinte = ((precoGasolina * 0.04) + precoGasolina * quantidadeLitros);
+                        Console.WriteLine("Preço {0} ", gasolinaAteVinte);
+                    }
+                    else
+                    {
+                        gasolinaMaisVinte = ((precoGasolina * 0.06) + precoGasolina * quantidadeLitros);
+                        Console.WriteLine("Preço {0} ", gasolinaMaisVinte);
+                    }
+                    break;
+                default: Console.WriteLine("Opção Inválida");
+                    break;
+            }
+            Console.ReadKey();
         }
     }
 }

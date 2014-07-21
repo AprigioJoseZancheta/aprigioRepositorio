@@ -11,7 +11,7 @@ namespace Unidade2.ExerciciosComplementares
      * Se a quantidade em estoque for maior ou igual a quantidade média escrever a mensagem 'Não efetuar compra', senão escrever a mensagem 'Efetuar compra'.*/
     class Exercicio8
     {
-        static void Main()
+        static void Main8()
         {
             int quantidadeAtualEstoque = 0;
             int quantidadeMaximaEstoque = 0;

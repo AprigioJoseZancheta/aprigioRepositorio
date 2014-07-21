@@ -57,6 +57,7 @@
     <Compile Include="EexrciciosFixacao\Exercicio8.cs" />
     <Compile Include="EexrciciosFixacao\Exercicio9.cs" />
     <Compile Include="ExerciciosComplementares\Exercicio1.cs" />
+    <Compile Include="ExerciciosComplementares\Exercicio10.cs" />
     <Compile Include="ExerciciosComplementares\Exercicio2.cs" />
     <Compile Include="ExerciciosComplementares\Exercicio3.cs" />
     <Compile Include="ExerciciosComplementares\Exercicio4.cs" />

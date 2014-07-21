@@ -10,7 +10,7 @@ namespace Unidade2
      * “Curso ” + “NDDigital ” + “Beginner ” + 2014. São 4 variáveis, 3 de texto e uma numérica. */
     class Unidade_13
     {
-        static void Main()
+        static void Main13()
         {
             string curso = "Curso";
             string ndd = "NDDigital";

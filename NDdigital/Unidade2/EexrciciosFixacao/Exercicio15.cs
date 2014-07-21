@@ -10,7 +10,7 @@ namespace Unidade2.EexrciciosFixacao
      * No final, mostre na tela de forma contrária do último ao instrutor. Você deve escrever e armazenar o nome dos 5. */
     class Exercicio15
     {
-        static void Main()
+        static void Main15()
         {
             string[] nomes = new string[] { "Thiago", "Luiz", "Lucas", "Camila", "Greicy", "Arnaldo", "Guilherme", "Raul", "Aprigio", "Rafael" };
 

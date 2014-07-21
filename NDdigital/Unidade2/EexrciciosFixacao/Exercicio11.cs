@@ -10,7 +10,7 @@ namespace Unidade2.EexrciciosFixacao
      * Sabe-se que o preço de custo receberá um acréscimo de acordo com um percentual informado pelo usuário.*/
     class Exercicio11
     {
-        static void Main()
+        static void Main10()
         {
             double valorVenda = 0;
             try

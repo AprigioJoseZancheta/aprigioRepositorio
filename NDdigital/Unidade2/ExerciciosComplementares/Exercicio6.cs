@@ -11,29 +11,31 @@ namespace Unidade2.ExerciciosComplementares
      * o salário por hora e escreva o salário total do funcionário, que deverá ser acrescido das horas extras, caso tenham sido trabalhadas (considere que o mês possua 4 semanas exatas).  */
     class Exercicio6
     {
-        static void Main()
+        static void Main6()
         {
-            int jornadaMes = 160;
-            double horaExtra = 4.50;
-            double horaRegular = 3;
-            double salarioHora;
+            double horasTrabalhadasMes = 0;
+            double salarioHora = 0;
+            double horaExtra = 0;
+            double salarioTotal = 0;
             try
             {
+                Console.WriteLine("Informe o salario por hora: ");
+                salarioHora = double.Parse(Console.ReadLine());
                 Console.WriteLine("Informe quantas horas o funcionario trabalhou no mês: ");
-                int horasTrabalhadasMes = int.Parse(Console.ReadLine());
-
-                if (horasTrabalhadasMes <= jornadaMes)
+                horasTrabalhadasMes = int.Parse(Console.ReadLine());
+         
+                if (horasTrabalhadasMes > 160)
                 {
-                    salarioHora = horaRegular * horasTrabalhadasMes;
+                    horaExtra = (salarioHora * 0.5) + salarioHora;
+                    salarioTotal = (160 * salarioHora) + (horaExtra * (horasTrabalhadasMes - 160));
                     Console.WriteLine("Salario por hora {0} ", salarioHora + " R$");
                 }
-                else if (horasTrabalhadasMes > jornadaMes)
+                else
                 {
-                    double quatidadeHorasExtraTrabalhada = horasTrabalhadasMes - jornadaMes;
-                    double calculaHoraExtra = quatidadeHorasExtraTrabalhada * horaExtra;
-                    double salarioTotal = (calculaHoraExtra * quatidadeHorasExtraTrabalhada);
-                    Console.WriteLine("Salario Total {0} ", salarioTotal);
+                    salarioTotal = salarioHora * horasTrabalhadasMes;
                 }
+                Console.WriteLine("Salario Total {0} ", salarioTotal);
+                
             }
             catch (Exception)
             {

@@ -10,7 +10,7 @@ namespace Unidade2.EexrciciosFixacao
     {
         /*14)	Escreva um algoritmo que envie uma mensagem como FALSO, caso o cálculo for VERDADEIRO e VERDADEIRO caso for falso. 
          * O programa ler 2 números e fazer todos os tipos de operadores lógicos já mostrados. Ex: 2 > 1 = FALSO */
-        static void Main()
+        static void Main14()
         {
             int num1 = 0;
             int num2 = 0;

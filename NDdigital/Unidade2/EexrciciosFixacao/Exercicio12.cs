@@ -13,7 +13,7 @@ namespace Unidade2.EexrciciosFixacao
      * */
     class Exercicio12
     {
-        static void Main()
+        static void Main12()
         {
             try
             {

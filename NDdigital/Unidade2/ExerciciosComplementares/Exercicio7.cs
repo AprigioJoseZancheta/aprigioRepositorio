@@ -10,7 +10,7 @@ namespace Unidade2.ExerciciosComplementares
      * Também testar se saldo atual for maior ou igual a zero escrever a mensagem 'Saldo Positivo', senão escrever a mensagem 'Saldo Negativo'.  */
     class Exercicio7
     {
-        static void Main()
+        static void Main7()
         {
             try
             {

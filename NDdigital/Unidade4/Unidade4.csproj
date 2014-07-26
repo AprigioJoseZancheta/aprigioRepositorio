@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{08E94760-CD5D-40FA-94EF-52E4B78A1E18}</ProjectGuid>
+    <ProjectGuid>{03164095-5D11-419C-86E6-E216AC05AF6C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Unidade3</RootNamespace>
-    <AssemblyName>Unidade3</AssemblyName>
+    <RootNamespace>Unidade4</RootNamespace>
+    <AssemblyName>Unidade4</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,26 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExerciciosFixacao\Exercicio1.cs" />
-    <Compile Include="ExerciciosFixacao\Exercicio10.cs" />
-    <Compile Include="ExerciciosFixacao\Exercicio11.cs" />
-    <Compile Include="ExerciciosFixacao\Exercicio12.cs" />
-    <Compile Include="ExerciciosFixacao\Exercicio13.cs" />
-    <Compile Include="ExerciciosFixacao\Exercicio14.cs" />
-    <Compile Include="ExerciciosFixacao\Exercicio2.cs" />
-    <Compile Include="ExerciciosFixacao\Exercicio3.cs" />
-    <Compile Include="ExerciciosFixacao\Exercicio4.cs" />
-    <Compile Include="ExerciciosFixacao\Exercicio5.cs" />
-    <Compile Include="ExerciciosFixacao\Exercicio6.cs" />
-    <Compile Include="ExerciciosFixacao\Exercicio7.cs" />
-    <Compile Include="ExerciciosFixacao\Exercicio8.cs" />
-    <Compile Include="ExerciciosFixacao\Exercicio9.cs" />
+    <Compile Include="Exercicio1.cs" />
+    <Compile Include="Exercicio2.cs" />
+    <Compile Include="Exercicio3.cs" />
+    <Compile Include="Exercicio4.cs" />
+    <Compile Include="Exercicio5.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -42,10 +42,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Exercicio1.cs" />
+    <Compile Include="Exercicio10.cs" />
     <Compile Include="Exercicio2.cs" />
     <Compile Include="Exercicio3.cs" />
     <Compile Include="Exercicio4.cs" />
     <Compile Include="Exercicio5.cs" />
+    <Compile Include="Exercicio6.cs" />
+    <Compile Include="Exercicio7.cs" />
+    <Compile Include="Exercicio8.cs" />
+    <Compile Include="Exercicio9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

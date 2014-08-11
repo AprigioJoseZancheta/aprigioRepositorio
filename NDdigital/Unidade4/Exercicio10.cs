@@ -11,7 +11,7 @@ namespace Unidade4
      * dia de nome_mes de ano.*/
     class Exercicio10
     {
-        static void Main()
+        static void Main10()
         {
             DateTime dataAgora = DateTime.Now;
             DateTime data = new DateTime(1981, 12, 19);
